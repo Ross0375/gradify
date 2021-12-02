@@ -1,6 +1,8 @@
+
+
 .gradify {
     display: grid;
-    /* filter: blur(200px); */
+    filter: blur(200px);
     height: 100vh;
     width: 100vw;
     grid-template-columns: repeat(12, 1fr);
@@ -22,7 +24,7 @@
 .col-1-2 {
     grid-column: 1 / 7;
 }
-.col-1-2 {
+.col-2-2 {
     grid-column: 7 / 13;
 }
 
@@ -81,7 +83,7 @@
 .row-1-2 {
     grid-row: 1 / 7;
 }
-.row-1-2 {
+.row-2-2 {
     grid-row: 7 / 13;
 }
 
@@ -134,7 +136,6 @@
 
 .square{
     /* this is the default but Im putting this here anyways just in case */
-    background-color: red;
 }
 
 .circle{
@@ -144,3 +145,5 @@
 .tri-top-l {
     background-image: linear-gradient(304deg, blue 50%, red 50%);
 }
+
+/* -------------------------------------------------------colours */
