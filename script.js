@@ -38,14 +38,23 @@ function colorize(i) {
 
     for (n = 0; n < themes[i].colors.length; n++) {
         let $selectedElements = $currentTheme.querySelectorAll('.theme'+[n+1])
-        console.log($selectedElements.length);
+        console.log($selectedElements);
 
-        for (x = 0; 0 < $selectedElements.length; x++){
-            console.log($selectedElements[x]);
-            if ($selectedElements !== undefined){
-                $selectedElements[x].style.backgroundColor = themes[i].colors[n]
-            }
-        }
+
+        // let selectedArray = Array.from($selectedElements)
+        // console.log(selectedArray);
+
+        // selectedArray.forEach( function () {
+        //     this.style.backgroundColor = themes[i].colors[n]
+        // });
+
+
+        // for (x = 0; 0 < $selectedElements.length; x++){
+        //     console.log($selectedElements[x]);
+        //     if ($selectedElements !== undefined){
+        //         $selectedElements[x].style.backgroundColor = themes[i].colors[n]
+        //     }
+        // }
 
     }
 }
