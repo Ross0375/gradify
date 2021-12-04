@@ -7,21 +7,34 @@
     <title>Gradient Test Zone</title>
     <link rel="stylesheet" href="reset.css">
     <link rel="stylesheet" href="gradify.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://use.typekit.net/gks8kjz.css">
+
 </head>
 <body>
-    <!-- <div class="gradify blur-md" id="vapor">
-        <div class="col-1-3 row-s-1 row-e-12 square theme1"></div>
-        <div class="col-s-10 col-e-12 row-s-8 row-e-12 bot-r theme3"></div>
-        <div class="col-3-4 row-2-3 square theme4"></div>
-        <div class="col-4-6 row-3-4 top-l theme2"></div>
-    </div> -->
-    <div class="gradify blur-sm" id="forest">
-        <div class="row-1-1 col-5-6 bot-l theme3"></div>
-        <div class="row-1-1 col-1-1 top-l theme4"></div>
-        <div class="row-1-1 col-2-3 top-l theme2"></div>
-        <div class="row-1-1 col-1-3 bot-l theme1"></div>
-
+    <div id="landing">
+        <div id="Title">
+            <h1>GRADIFY</h1>
+        </div>
+        <div id="landingtext">
+            <p>Gradify is a free, open-source CSS framework created for responsive, customizable gradient maps fully in html. </p>
+        </div>
+        <div class="gradify" id="green">
+            <div class="col-s-2 col-e-11 row-s-2 row-e-11 theme1 circle"></div>
+        </div>
     </div>
+    <div id="example">
+        <img id="not-logo" src="svg/not-insta.svg" alt="totally not insta logo">
+        <div class="gradify blur-sm" id="instabang">
+            <div class="col-s-2 col-e-11 row-s-2 row-e-11 bot-r theme3"></div>
+            <div class="col-s-2 col-e-11 row-s-2 row-e-7 theme2 top-l"></div>
+            <div class="col-s-2 col-e-9 row-s-2 row-e-4 theme1 top-l"></div>
+            <div class="col-s-2 col-e-10 row-s-7 row-e-11 theme4 bot-l"></div>
+            <div class="col-s-2 col-e-7 row-s-8 row-e-11 bot-l theme5"></div>
+        </div>
+    </div>
+
 </body>
+<script src="themes.js"></script>
 <script src="script.js"></script>
 </html>

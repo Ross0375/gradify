@@ -1,31 +1,7 @@
 
 
-//use id to make a theme
-let $currentTheme
-const themes = [
-    {
-    title: 'heat',
-    colors: ['#F90716',
-        '#FF5403',
-        '#FFCA03',
-        '#FFF323']
-    },
-    {
-    title: 'vapor',
-    colors: ['#000D6B',
-        '#9C19E0',
-        '#FF5DA2',
-        '#99DDCC']
-    },
-    {
-    title: 'forest',
-    colors: ['#064635',
-        '#519259',
-        '#F0BB62',
-        '#F4EEA9']
-    }
 
-];
+let $currentTheme
 
 //check if id is used when compared to the themes objects, if that exists send it to the next which would apply the appropriate values to it's children
 
